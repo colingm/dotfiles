@@ -13,6 +13,7 @@ function doIt() {
 		--exclude "install.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
+		--exclude "iterm" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
