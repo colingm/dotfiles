@@ -65,5 +65,13 @@ brew install jq
 brew cask install alfred
 brew cask install rectangle
 
+# Mopidy
+brew tap mopidy/mopidy
+brew install mopidy
+brew install mopidy/mopidy/mopidy-mpd
+brew services start mopidy/mopidy/mopidy
+brew install mpc
+brew install fftw ncurses libtool automake portaudio
+
 # Remove outdated versions from the cellar.
 brew cleanup

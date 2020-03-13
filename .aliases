@@ -139,6 +139,8 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path="echo -e ${PATH//:/\\n}"
 
-# Use python3 by default
-alias python="python3"
-alias pip="pip3"
+# Mopidy
+alias mopidy-start="brew services start mopidy/mopidy/mopidy"
+alias mopidy-stop="brew services stop mopidy/mopidy/mopidy"
+alias mopidy-restart="brew services restart mopidy/mopidy/mopidy"
+alias mopidy-ui="ncmpcpp"
