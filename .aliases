@@ -13,6 +13,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias w="cd ~/workspace"
 alias g="git"
+alias gl="git log --pretty=short"
 
 # Mac shortcuts
 alias fix-audio="sudo killall coreaudiod"
@@ -143,4 +144,4 @@ alias path="echo -e ${PATH//:/\\n}"
 alias mopidy-start="brew services start mopidy/mopidy/mopidy"
 alias mopidy-stop="brew services stop mopidy/mopidy/mopidy"
 alias mopidy-restart="brew services restart mopidy/mopidy/mopidy"
-alias mopidy-ui="ncmpcpp"
+alias mui="ncmpcpp"

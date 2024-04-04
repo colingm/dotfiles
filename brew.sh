@@ -44,6 +44,9 @@ brew install grep
 brew install openssh
 brew install screen
 brew install gmp
+brew install python
+brew install python3
+brew postinstall python3
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -71,6 +74,7 @@ brew install mopidy
 brew install mopidy/mopidy/mopidy-mpd
 brew services start mopidy/mopidy/mopidy
 brew install mpc
+brew install ncmpcpp
 brew install fftw ncurses libtool automake portaudio
 
 # Remove outdated versions from the cellar.

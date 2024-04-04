@@ -2,9 +2,9 @@
 (cd ~/Downloads && curl -LO https://github.com/MarkJerde/Flycut/releases/download/1.9.2/Flycut.app.zip && unzip Flycut.app.zip && mv Flycut.app ~/Applications)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
-# Mopidy plugins
-pip install Mopidy-Youtube
-pip install Mopidy-Spotify
+# Mopidy plugins this has to be installed after python :)
+# pip install Mopidy-Youtube
+# pip install Mopidy-Spotify
 
 # Cava
 # ln -s `/usr/local/bin/glibtoolize` /usr/local/bin/libtoolize
